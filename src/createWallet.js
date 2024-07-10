@@ -26,7 +26,8 @@ let btcAdress = bitcoin.payments.p2pkh({
     network: network,
 }).address
 
-console.log("Carteira gerada")
-console.log("Endereço: ", btcAdress)
-console.log("Chave privada:", node.toWIF())
+//
+console.log("Generated wallet:")
+console.log("Address: ", btcAdress)
+console.log("Private Key:", node.toWIF())
 console.log("Seed", mnemonic)
